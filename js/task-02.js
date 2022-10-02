@@ -18,7 +18,6 @@ function addIngredients() {
     createLi.textContent = `${ingredient}`;
     createLi.classList.add("item");
     ingredientsArray.push(createLi)
-    console.log(ingredientsArray)
   });
 
 ulRef.append(...ingredientsArray)
